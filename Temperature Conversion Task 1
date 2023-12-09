@@ -8,7 +8,7 @@ public class TemperatureConverter {
         System.out.print("Enter the temperature value: ");
         double temperature = scanner.nextDouble();
 
-        System.out.print("Enter the unit of measurement (Celsius, Fahrenheit, or Kelvin): ");
+        System.out.print("Enter the unit of measurement (Celsius, Fahrenheit, or Kelvin): "); 
         scanner.nextLine(); // Consume the newline character
         String originalUnit = scanner.nextLine().toLowerCase();
 
